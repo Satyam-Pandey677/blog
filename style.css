@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Quicksand';
+}
+
+p{
+    color: gray;
+}
+
+h2{
+    color: black;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.display{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(245, 206, 66);
+}
+
+.blog-card{
+    height: 500px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px black;
+    border: 1px solid black;
+}
+
+img{
+    width: 88%;
+    margin-top: 20px;
+    margin-left: 22px;
+    border-radius: 8px;
+
+}
+
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    background: rgba(245, 206, 66); 
+    margin-top: 20px;
+    margin-left: 22px;
+    border-radius: 5px;
+    font-weight: 200;
+}
+
+.date{
+    margin-left: 22px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+p{
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.avtar{
+     height: 40px;
+     width: 40px;
+}
+
+.creator{
+    display: flex;
+    gap: 15px;
+}
+
+.name{
+    margin-top: 33px;
+    font-weight: 900;
+}
